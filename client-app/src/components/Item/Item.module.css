@@ -1,0 +1,123 @@
+.present-products_container {
+  position: relative;
+  text-align: center;
+  border: 1.4px solid #669933;
+  border-radius: 2rem;
+  background-color: white;
+  overflow: hidden;
+  padding: 1rem 1rem;
+}
+.present-products_img {
+  width: 100%;
+  height: 252.23px;
+  cursor: pointer;
+  transition: all 0.5s ease;
+}
+.present-products_container:hover .present-products_img {
+  opacity: 0.8;
+}
+.present-products_name {
+  display: block;
+  display: -webkit-box;
+  -webkit-line-clamp: 1;
+  font-size: 1.6rem;
+  font-family: "Roboto Condensed", sans-serif;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  color: #f861af;
+  margin-top: 30px;
+  margin-bottom: 6px;
+  cursor: pointer;
+}
+.present-products_price {
+  font-family: "Roboto", sans-serif;
+  margin-top: 0.6rem;
+  margin-bottom: 0.6rem;
+}
+.present-products_old-price {
+  display: unset;
+  font-size: 1.5rem;
+  color: #818181;
+  text-decoration: line-through;
+}
+.present_products_old_price_visible {
+  visibility: hidden;
+}
+.present-products_new-price {
+  margin-left: 0.6rem;
+  font-size: 2rem;
+  color: #ff2929;
+}
+.present-products_new-price > strong {
+  text-decoration: underline;
+}
+.present-products_wrapper-button {
+  margin-top: 1.6rem;
+  margin-bottom: 0.4rem;
+}
+.present-products_button {
+  padding: 0.91rem 2.5rem;
+  border: none;
+  outline: none;
+  border-radius: 2rem;
+  font-size: 1.4rem;
+  margin: auto auto;
+  background-color: #669933;
+  color: white;
+  cursor: pointer;
+}
+
+/* Sale */
+.present-products-sale {
+  position: absolute;
+  top: 6%;
+  left: 6%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #f851a7;
+  width: 4.48rem;
+  height: 4.48rem;
+  border-radius: 100%;
+  font-size: 1.6rem;
+  color: white;
+}
+@media only screen and (max-width: 431px) {
+  .present-products_old-price {
+    display: block;
+  }
+  .present-products_img {
+    width: 100%;
+    height: 160px;
+    cursor: pointer;
+    transition: all 0.5s ease;
+  }
+  .present-products_name {
+    margin-top: 1rem;
+  }
+}
+@media only screen and (max-width: 376px) {
+  .present-products_img {
+    width: 100%;
+    height: 130px;
+    cursor: pointer;
+    transition: all 0.5s ease;
+  }
+  .present-products_new-price {
+    margin-left: 0.6rem;
+    font-size: 1.7rem;
+    color: #ff2929;
+  }
+  .present-products_button {
+    padding: 0.75rem 1.8rem;
+    border: none;
+    outline: none;
+    border-radius: 2rem;
+    font-size: 1.4rem;
+    margin: auto auto;
+    background-color: #669933;
+    color: white;
+    cursor: pointer;
+  }
+}

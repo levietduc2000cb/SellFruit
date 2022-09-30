@@ -1,0 +1,43 @@
+.paging {
+  margin-top: 3rem;
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  background: linear-gradient(to bottom, #a0d56c, #416221);
+  padding: 1rem 0rem;
+  border-radius: 5px;
+}
+.number_page {
+  padding: 2px 8px;
+  font-size: 2rem;
+  background-color: white;
+  margin: 0 0.6rem;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: all 0.3s ease;
+  border-radius: 1.5px;
+  -webkit-user-select: none;
+  user-select: none;
+}
+.number_page:hover {
+  color: white;
+  background-color: green;
+}
+.number_page.active {
+  color: white;
+  background-color: green;
+}
+.number_page_wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.number_page.number_page_disable {
+  cursor: default;
+}
+.number_page.number_page_disable:hover {
+  background-color: white;
+  color: black;
+}

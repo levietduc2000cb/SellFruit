@@ -1,0 +1,33 @@
+.icon_contact_space {
+  margin-right: 0.4rem;
+  display: block;
+}
+
+.icon_contact_wrapper {
+  width: 3.298rem;
+  height: 3.298rem;
+  border-radius: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+.icon_contact {
+  font-size: 1.623rem;
+  color: white;
+}
+.icon_contact_wrapper.Facebook {
+  background-color: #3a589d;
+}
+.icon_contact_wrapper.Instagram {
+  background-color: #3b6994;
+}
+.icon_contact_wrapper.Mail {
+  background-color: #111111;
+}
+.icon_contact_wrapper.Phone {
+  background-color: #51cb5a;
+}
+.icon_contact_wrapper.LinkedIn {
+  background-color: #0072b7;
+}

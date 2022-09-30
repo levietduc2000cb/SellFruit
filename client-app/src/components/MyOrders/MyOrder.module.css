@@ -1,0 +1,22 @@
+.my_order_wrapper {
+  max-width: 1150px;
+  width: 100%;
+  margin: 0 auto;
+}
+.my_order_title,
+.order_empty {
+  text-align: left;
+  font-size: 2.4rem;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+.order_empty {
+  height: 30vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.4rem;
+}
+.order_empty > img {
+  height: 50%;
+}

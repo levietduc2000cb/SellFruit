@@ -1,0 +1,174 @@
+.profile_page {
+  max-width: 1150px;
+  width: 100%;
+  margin: 3rem auto;
+  padding-left: 0;
+  padding-right: 0;
+}
+.my_order_wrapper,
+.profile_wrapper {
+  width: 100%;
+}
+.profile_wrapper {
+  display: grid;
+  grid-template-columns: 20% 80%;
+}
+/* image avatar */
+.image_avatar_wrapper {
+  width: 100%;
+  border: 2px solid #669933;
+  border-radius: none;
+  overflow: hidden;
+  margin-bottom: 0;
+  margin-left: 0;
+  margin-right: 0;
+}
+
+/* Other information */
+
+.profile_name {
+  text-align: center;
+  font-size: 2.4rem;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+
+.profile_other_infor {
+  display: flex;
+  justify-content: center;
+}
+.profile_address,
+.profile_emailAddress,
+.profile_phoneNumber {
+  display: flex;
+  margin: 1rem 0;
+  font-size: 2rem;
+  margin-left: 10rem;
+}
+.profile_title {
+  text-align: left;
+  width: 30rem;
+  font-weight: 600;
+}
+
+/* Button  */
+.btn {
+  margin: 2rem;
+  display: flex;
+  justify-content: center;
+}
+.btn-logout,
+.btn_change_profile {
+  outline: none;
+  border: none;
+  font-size: 2rem;
+  padding: 1.2rem 2.2rem;
+  cursor: pointer;
+  margin: 2rem 1rem;
+}
+.btn-logout {
+  background-color: #669933;
+  color: white;
+}
+.btn_change_profile {
+  background-color: rgb(192, 191, 191);
+  color: black;
+}
+@media only screen and (max-width: 1200px) {
+  .profile_page {
+    padding-left: 2rem;
+    padding-right: 2rem;
+  }
+}
+@media only screen and (max-width: 768px) {
+  .profile_wrapper {
+    grid-template-columns: 100%;
+  }
+  .image_avatar_wrapper {
+    width: 30%;
+    margin-bottom: 3rem;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+@media only screen and (max-width: 624px) {
+  .profile_address,
+  .profile_emailAddress,
+  .profile_phoneNumber {
+    margin-left: 0rem;
+  }
+}
+@media only screen and (max-width: 557px) {
+  .image_avatar_wrapper {
+    width: 30%;
+    border: 2px solid #669933;
+    border-radius: 100%;
+    margin-bottom: 3rem;
+    overflow: hidden;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .profile_title {
+    text-align: left;
+    width: auto;
+    font-weight: 600;
+    margin-right: 1rem;
+  }
+  .profile_address,
+  .profile_emailAddress,
+  .profile_phoneNumber {
+    display: flex;
+    margin: 1rem 0;
+    font-size: 2rem;
+    margin-left: 0;
+  }
+}
+/* Create New Item */
+.title_create {
+  text-align: left;
+  font-size: 2.4rem;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+.icon_create_wrapper {
+  width: 150px;
+  height: 150px;
+  margin: 0 auto;
+  margin-top: 2rem;
+  border: 5px solid gray;
+  border-radius: 6px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  transition: all 0.5s ease;
+}
+.icon_create_wrapper:hover {
+  border-color: green;
+}
+.icon_create {
+  font-size: 5rem;
+  color: gray;
+  transition: all 0.5s ease;
+}
+.icon_create_wrapper:hover .icon_create {
+  color: green;
+  transform: rotate(360deg);
+}
+
+@media only screen and (max-width: 376px) {
+  .profile_address,
+  .profile_emailAddress,
+  .profile_phoneNumber {
+    display: block;
+    margin: 1rem 0;
+    font-size: 2rem;
+    margin-left: 0;
+  }
+  .btn {
+    margin: 2rem;
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: center;
+  }
+}

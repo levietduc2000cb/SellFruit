@@ -1,0 +1,25 @@
+.input_wrapper {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 2.2rem;
+}
+.input_wrapper > label {
+  font-size: 14.4px;
+  font-weight: 600;
+  margin-bottom: 1rem;
+}
+.input_form {
+  font-size: 16px;
+  padding: 0.9rem 1.2rem;
+  outline: none;
+  border: none;
+  box-shadow: 0px 0px 4px 1px rgb(201, 200, 200);
+}
+.input_form:focus {
+  box-shadow: 0px 0px 4px 1px rgb(102, 153, 51);
+}
+.error_message_input {
+  margin-top: 0.5rem;
+  color: red;
+  font-size: 1.4rem;
+}

@@ -1,0 +1,35 @@
+.introduce_post {
+  width: 100%;
+  display: flex;
+  padding-top: 1rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  padding-bottom: 1.5rem;
+  border-bottom: 1px solid rgba(1, 1, 1, 0.2);
+  cursor: pointer;
+}
+.introduce_post_img_wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-right: 1.5rem;
+}
+.img_post {
+  width: 4.5rem;
+  height: 4.5rem;
+  border-radius: 100%;
+  overflow: hidden;
+  object-fit: cover;
+}
+.introduce_post_name {
+  display: block;
+  display: -webkit-box;
+  font-size: 1.5rem;
+  -webkit-line-clamp: 3; /* số dòng hiển thị*/
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.introduce_post:hover .introduce_post_name {
+  color: #669933;
+}

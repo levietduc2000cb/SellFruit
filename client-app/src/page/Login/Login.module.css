@@ -1,0 +1,10 @@
+.login_page {
+  width: 100vw;
+  margin-top: 3rem;
+}
+@media only screen and (max-width: 1154px) {
+  .login_page {
+    padding-left: 3rem;
+    padding-right: 3rem;
+  }
+}

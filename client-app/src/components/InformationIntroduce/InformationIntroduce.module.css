@@ -1,0 +1,15 @@
+.information_introduce {
+  width: 100%;
+}
+.information_introduce_title {
+  font-size: 2.2rem;
+  line-height: 4.2rem;
+}
+.information_introduce_content {
+  font-size: 1.8rem;
+  line-height: 2.8rem;
+}
+.information_introduce_img {
+  width: 100%;
+  margin: 3rem auto;
+}

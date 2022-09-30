@@ -1,0 +1,30 @@
+.products_side-bar_container {
+  list-style: none;
+  background-color: white;
+  border: 1px solid #416221;
+}
+.products_side-bar_title {
+  font-size: 1.6rem;
+  font-weight: 500;
+  text-transform: uppercase;
+  color: white;
+  background-color: #669933;
+  text-align: center;
+  padding-top: 1.18rem;
+  padding-bottom: 1.18rem;
+}
+.products_side-bar_type {
+  font-size: 1.5rem;
+  padding-top: 1.18rem;
+  padding-bottom: 1.18rem;
+  margin-right: 1rem;
+  margin-left: 1rem;
+  cursor: pointer;
+  border-bottom: 0.1px solid rgb(166, 166, 166, 0.2);
+}
+.products_side-bar_type:hover {
+  color: #669933;
+}
+.active {
+  color: #669933;
+}

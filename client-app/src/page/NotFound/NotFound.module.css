@@ -1,0 +1,12 @@
+.page_not_found {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.img_not_found {
+  margin-top: 3rem;
+  width: 50%;
+  height: 50%;
+}

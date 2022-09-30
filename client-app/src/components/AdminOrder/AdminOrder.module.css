@@ -1,0 +1,107 @@
+.admin_orders {
+  overflow: auto;
+  border: 1px solid green;
+  padding: 2rem 2rem;
+  border-radius: 5px;
+  margin: 2rem 0;
+}
+.admin_orders_content {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 0 30px;
+}
+.order_title,
+.order_content {
+  font-size: 1.6rem;
+  line-height: 2.6rem;
+}
+.order_title {
+  font-weight: 600;
+}
+.order_title_total,
+.order_content_total {
+  font-size: 2rem;
+  line-height: 4rem;
+  font-weight: 600;
+  color: green;
+}
+.order_title_total {
+  text-transform: uppercase;
+}
+.confirm_order_from_admin_btn,
+.not_confirm_order_from_admin_btn {
+  float: right;
+  width: 20%;
+  color: white;
+  outline: none;
+  border: none;
+  padding: 1rem;
+  box-shadow: 4px 3px 0px 0px black;
+  margin-bottom: 0.5rem;
+}
+.not_confirm_order_from_admin_btn {
+  background-color: red;
+  cursor: pointer;
+}
+.confirm_order_from_admin_btn {
+  background-color: green;
+  cursor: pointer;
+  pointer-events: none;
+}
+@media only screen and (max-width: 1048px) {
+  .confirm_order_from_admin_btn,
+  .not_confirm_order_from_admin_btn {
+    float: right;
+    width: 30%;
+    color: white;
+    outline: none;
+    border: none;
+    padding: 1rem;
+    box-shadow: 4px 3px 0px 0px black;
+    margin-bottom: 0.5rem;
+  }
+}
+@media only screen and (max-width: 715px) {
+  .confirm_order_from_admin_btn,
+  .not_confirm_order_from_admin_btn {
+    float: right;
+    width: 40%;
+    color: white;
+    outline: none;
+    border: none;
+    padding: 1rem;
+    box-shadow: 4px 3px 0px 0px black;
+    margin-bottom: 0.5rem;
+  }
+}
+@media only screen and (max-width: 564px) {
+  .admin_orders_content {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 0 30px;
+  }
+  .confirm_order_from_admin_btn,
+  .not_confirm_order_from_admin_btn {
+    float: right;
+    width: 50%;
+    color: white;
+    outline: none;
+    border: none;
+    padding: 1rem;
+    box-shadow: 4px 3px 0px 0px black;
+    margin-bottom: 0.5rem;
+  }
+}
+@media only screen and (max-width: 474px) {
+  .confirm_order_from_admin_btn,
+  .not_confirm_order_from_admin_btn {
+    float: right;
+    width: 100%;
+    color: white;
+    outline: none;
+    border: none;
+    padding: 1rem;
+    box-shadow: 4px 3px 0px 0px black;
+    margin-bottom: 0.5rem;
+  }
+}

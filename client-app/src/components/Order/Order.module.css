@@ -1,0 +1,60 @@
+.orders_wrapper {
+  border: 2px solid green;
+  border-radius: 5px;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  overflow: hidden;
+}
+.my_orders {
+  width: 100%;
+  display: grid;
+  grid-template-columns: 50% 50%;
+  gap: 0 10px;
+  padding: 1rem;
+}
+.receiver_information > div,
+.order_items > div {
+  margin-top: 1.5rem;
+}
+.information,
+.items,
+.code_order,
+.total_price {
+  font-size: 1.6rem;
+  line-height: 2.6rem;
+}
+.information_title,
+.code_order > span:first-child {
+  font-weight: 600;
+}
+.total_price {
+  color: green;
+}
+.order_confirm_active,
+.order_confirm_not_active {
+  margin-top: 1.2rem;
+  font-size: 1.6rem;
+  text-align: center;
+  color: white;
+  padding: 1rem 0;
+  text-transform: uppercase;
+}
+.order_confirm_not_active {
+  background-color: #e39400;
+  text-shadow: -1px -1px 0 purple, 1px -1px 0 purple, -1px 1px 0 purple,
+    1px 1px 0 purple;
+}
+.order_confirm_active {
+  background-color: green;
+  text-shadow: -1px -1px 0 red, 1px -1px 0 red, -1px 1px 0 red, 1px 1px 0 red;
+}
+@media only screen and (max-width: 550px) {
+  .my_orders {
+    width: 100%;
+    display: grid;
+    grid-template-columns: 100%;
+    gap: 10px 0;
+    padding: 1rem;
+    margin-top: 1rem;
+  }
+}

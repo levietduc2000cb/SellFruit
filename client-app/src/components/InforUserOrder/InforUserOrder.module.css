@@ -1,0 +1,83 @@
+.infor_user_order_container {
+  padding: 3rem;
+  border: 2px solid #669933;
+  border-radius: 5px;
+}
+.infor_user_order_title {
+  font-size: 17.6px;
+  font-family: "Roboto Condensed", sans-serif;
+  text-transform: uppercase;
+}
+.infor_user_order_product_title {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 2rem;
+  margin-bottom: 7.2px;
+}
+.infor_user_order_product_title > h1 {
+  font-size: 14.4px;
+  text-transform: uppercase;
+}
+.infor_user_order_product_list_price {
+  border-top: 1.5px solid #ececec;
+  border-bottom: 1.5px solid #ececec;
+}
+.infor_user_order_product_item {
+  font-size: 14.4px;
+  display: flex;
+  justify-content: space-between;
+  padding-top: 1.5rem;
+  padding-bottom: 1.5rem;
+  border-top: 1px solid #ececec;
+  border-bottom: 1px solid #ececec;
+}
+.infor_user_order_product_price {
+  font-weight: 600;
+}
+.infor_user_order_product_price > strong {
+  text-decoration: underline;
+}
+.infor_user_order_method_pay {
+  margin-top: 1.6rem;
+  font-size: 14.4px;
+  font-weight: 600;
+  display: flex;
+  justify-content: space-between;
+}
+.infor_user_order_method {
+  margin: 1rem 0;
+  display: flex;
+}
+.infor_user_order_note {
+  margin-top: 1.6rem;
+  font-size: 14.4px;
+  line-height: 18.4px;
+}
+.infor_user_order_note > span:nth-child(1) {
+  font-weight: 600;
+}
+.order_btn {
+  margin-top: 3.6rem;
+  font-size: 15.52px;
+  font-weight: 600;
+  text-transform: uppercase;
+  background-color: black;
+  color: white;
+  padding: 1rem 2rem;
+}
+.order_btn.active {
+  opacity: 1;
+  cursor: pointer;
+}
+.order_btn.not_active {
+  opacity: 0.5;
+  pointer-events: none;
+}
+@media only screen and (max-width: 500px) {
+  .infor_user_order_method_pay {
+    margin-top: 1.6rem;
+    font-size: 14.4px;
+    font-weight: 600;
+    display: block;
+  }
+}

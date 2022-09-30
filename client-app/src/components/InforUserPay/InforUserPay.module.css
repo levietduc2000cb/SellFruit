@@ -1,0 +1,31 @@
+.info_user_pay_title {
+  font-size: 17.6px;
+  font-family: "Roboto Condensed", sans-serif;
+  text-transform: uppercase;
+  margin-bottom: 1.6rem;
+}
+.info_user_pay_fullname {
+  display: grid;
+  grid-template-columns: 47% 47%;
+  gap: 0 6%;
+}
+.info_user_pay_additional {
+  display: flex;
+  flex-direction: column;
+}
+.info_user_pay_additional > label {
+  font-size: 14.4px;
+  font-weight: 600;
+  margin-bottom: 1rem;
+}
+.info_user_pay_additional > textarea {
+  font-size: 16px;
+  padding: 0.9rem 1.2rem;
+  outline: none;
+  border: none;
+  box-shadow: 0px 0px 4px 1px rgb(201, 200, 200);
+  margin-bottom: 2.2rem;
+}
+.info_user_pay_additional > textarea:focus {
+  box-shadow: 0px 0px 4px 1px rgb(102, 153, 51);
+}

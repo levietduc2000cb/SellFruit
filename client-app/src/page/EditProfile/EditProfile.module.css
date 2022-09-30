@@ -1,0 +1,101 @@
+.form_edit_profile {
+  max-width: 1150px;
+  width: 100%;
+  margin: 3rem auto;
+  padding: 0 0;
+}
+.form_edit_profile > h1 {
+  text-transform: uppercase;
+  margin-top: 3rem;
+}
+.edit_profile_image_wrapper {
+  margin-top: 3rem;
+}
+.avatar_image {
+  display: block;
+  width: 200px;
+  height: 200px;
+  cursor: pointer;
+  margin: 0 auto;
+  border: 2px solid green;
+  border-radius: 100%;
+  overflow: hidden;
+}
+.avatar_image > img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.lastName_and_firstName {
+  margin-top: 2rem;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 0 6%;
+}
+.edit_profile_btn {
+  display: flex;
+  justify-content: flex-end;
+}
+.btn_save,
+.btn_cancel {
+  outline: none;
+  border: none;
+  padding-top: 14px;
+  padding-bottom: 10px;
+  max-width: 200px;
+  width: 100%;
+  border-radius: 4px;
+  font-size: 1.6rem;
+  font-weight: 600;
+  color: white;
+  cursor: pointer;
+  opacity: 0.75;
+  text-align: center;
+}
+.btn_save {
+  background-color: green;
+  margin-right: 1rem;
+}
+.btn_cancel {
+  background-color: gray;
+}
+.btn_save:hover,
+.btn_cancel:hover {
+  opacity: 1;
+}
+@media only screen and (max-width: 1160px) {
+  .form_edit_profile {
+    max-width: 1150px;
+    width: 100%;
+    margin: 3rem auto;
+    padding: 0 1rem;
+  }
+  .avatar_image {
+    display: block;
+    width: 160px;
+    height: 160px;
+    cursor: pointer;
+    margin: 0 auto;
+    border: 2px solid green;
+    border-radius: 100%;
+    overflow: hidden;
+  }
+  .lastName_and_firstName {
+    margin-top: 2rem;
+    display: grid;
+    grid-template-columns: 48% 48%;
+    gap: 0 4%;
+  }
+}
+@media only screen and (max-width: 426px) {
+  .avatar_image {
+    display: block;
+    width: 120px;
+    height: 120px;
+    cursor: pointer;
+    margin: 0 auto;
+    border: 2px solid green;
+    border-radius: 100%;
+    overflow: hidden;
+  }
+}

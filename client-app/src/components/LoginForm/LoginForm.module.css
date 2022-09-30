@@ -1,0 +1,35 @@
+.wrapper_form {
+  margin: auto auto;
+  max-width: 1150px;
+  width: 100%;
+}
+
+.input_form_title {
+  font-size: 2rem;
+  text-transform: uppercase;
+  font-family: "Roboto Condensed", sans-serif;
+  margin-bottom: 1.2rem;
+}
+.input_first_and_last-name_wrapper {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 0 40px;
+}
+.register_btn {
+  font-size: 15.52px;
+  font-weight: 800;
+  text-transform: uppercase;
+  padding: 0.9rem 2.3rem;
+  color: white;
+  outline: none;
+  border: none;
+  background-color: #669933;
+  margin-bottom: 8.6rem;
+  cursor: pointer;
+}
+@media only screen and (max-width: 550px) {
+  .input_first_and_last-name_wrapper {
+    grid-template-columns: 47% 47%;
+    gap: 0 6%;
+  }
+}

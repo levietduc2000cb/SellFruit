@@ -1,0 +1,28 @@
+.introduce_page {
+  margin-top: 3rem;
+  width: 100vw;
+  padding-left: 0rem;
+  padding-right: 0rem;
+}
+.introduce_wrapper {
+  max-width: 1160px;
+  width: 100%;
+  margin: auto auto;
+  display: grid;
+  grid-template-columns: 4fr 1fr;
+  gap: 0 38px;
+}
+
+/*Responsive */
+@media only screen and (max-width: 1175px) {
+  .introduce_page {
+    padding-left: 2rem;
+    padding-right: 2rem;
+  }
+}
+@media only screen and (max-width: 768px) {
+  .introduce_wrapper {
+    grid-template-columns: 1fr;
+    gap: 0 38px;
+  }
+}

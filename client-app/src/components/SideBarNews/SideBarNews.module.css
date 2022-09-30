@@ -1,0 +1,31 @@
+.introduce_section_2 {
+  display: block;
+}
+.introduce_text {
+  font-size: 27.2px;
+  font-family: "Roboto Condensed", sans-serif;
+}
+.img_introduce {
+  width: 100%;
+}
+
+/* POST INTRODUCES */
+.introduce_posts {
+  margin-top: 2.4rem;
+  width: 100%;
+  border: 1px solid #669933;
+}
+.introduce_post_title {
+  font-size: 1.6rem;
+  font-weight: 500;
+  background-color: #669933;
+  color: white;
+  text-align: center;
+  padding: 1.3rem 1.5rem;
+}
+/*Responsive */
+@media only screen and (max-width: 768px) {
+  .introduce_section_2 {
+    display: none;
+  }
+}

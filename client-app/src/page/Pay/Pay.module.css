@@ -1,0 +1,25 @@
+.pay_page {
+  width: 100vw;
+  margin-top: 3rem;
+  margin-bottom: 13rem;
+  padding: 0 0;
+}
+.pay_wrapper {
+  max-width: 1160px;
+  width: 100%;
+  margin: auto auto;
+  display: grid;
+  grid-template-columns: 1.5fr 1fr;
+  gap: 0 36px;
+}
+@media only screen and (max-width: 1204px) {
+  .pay_page {
+    padding: 0 2rem;
+  }
+}
+@media only screen and (max-width: 768px) {
+  .pay_wrapper {
+    grid-template-columns: 100%;
+    gap: 0 36px;
+  }
+}

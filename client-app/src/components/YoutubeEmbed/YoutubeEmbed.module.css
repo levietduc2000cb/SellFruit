@@ -1,0 +1,16 @@
+/* Video ad */
+.video-responsive {
+  margin-top: 2rem;
+  margin-bottom: 0rem;
+  width: 100%;
+  height: 20.8rem;
+  border-radius: 0.6rem;
+  border: none;
+  overflow: hidden;
+}
+@media only screen and (max-width: 768px) {
+  .video-responsive {
+    margin-bottom: 2rem;
+    height: 50vh;
+  }
+}

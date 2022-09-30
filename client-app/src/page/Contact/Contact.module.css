@@ -1,0 +1,64 @@
+.contact_page,
+.contact_wrapper {
+  width: 100vw;
+  margin-bottom: 5rem;
+}
+/* Contact container */
+.contact_wrapper {
+  margin-top: 4.7rem;
+  padding-left: 0;
+  padding-right: 0;
+}
+.contact_container {
+  max-width: 1150px;
+  width: 100%;
+  margin: auto auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 0 68px;
+}
+.contact_container_title {
+  font-size: 2rem;
+  color: #4f3716;
+  text-transform: uppercase;
+  font-family: "Roboto Condensed", sans-serif;
+  margin-bottom: 1rem;
+}
+.contact_container_name-company {
+  font-size: 1.6rem;
+  font-weight: 600;
+  margin-bottom: 2.8rem;
+}
+.contact_container_list_detail {
+  padding-left: 2.08rem;
+}
+.contact_container_detail {
+  font-size: 1.6rem;
+  margin-bottom: 0.96rem;
+  font-weight: 500;
+}
+.contact_container_detail > span:nth-child(2) {
+  font-weight: 200;
+}
+.contact_container_list_icons {
+  display: flex;
+  margin-top: 2.6rem;
+}
+
+/* Responsive */
+@media only screen and (max-width: 1208px) {
+  .contact_container {
+    gap: 0 20px;
+  }
+  .contact_wrapper {
+    margin-top: 4.7rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+  }
+}
+@media only screen and (max-width: 550px) {
+  .contact_container {
+    grid-template-columns: 1fr;
+    gap: 40px 20px;
+  }
+}

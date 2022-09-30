@@ -1,0 +1,19 @@
+.admin_get_order_page {
+  max-width: 1150px;
+  width: 100%;
+  margin: 3rem auto;
+  padding: 0 0;
+}
+.admin_get_order_title {
+  font-size: 2rem;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+@media only screen and (max-width: 1202px) {
+  .admin_get_order_page {
+    max-width: 1150px;
+    width: 100%;
+    margin: 3rem auto;
+    padding: 0 2rem;
+  }
+}
